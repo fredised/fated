@@ -1,6 +1,12 @@
 # Fated - Text Effects Library for Python
 
+![Version](https://img.shields.io/pypi/v/fated)
+![Python Version](https://img.shields.io/pypi/pyversions/fated)
+![License](https://img.shields.io/github/license/fredised/fated)
+
 Fated is a Python library that adds visual effects to text output including typewriter animation and other text styling options. It provides a simple API for creating rich, animated terminal text with no external dependencies.
+
+Make your terminal applications more engaging with smooth animations, colorful text, and eye-catching effects!
 
 ## Features
 
@@ -10,6 +16,7 @@ Fated is a Python library that adds visual effects to text output including type
 - **Simple API**: Intuitive interface that works with standard print function
 - **Alternative Syntax**: Use the + operator with shortcut objects for even cleaner code
 - **No Dependencies**: Uses only Python standard library modules
+- **Cross-Platform**: Works on Windows, macOS, and Linux terminals that support ANSI escape codes
 
 ## Installation
 
@@ -18,6 +25,14 @@ Install directly from PyPI using pip:
 ```bash
 pip install fated
 ```
+## Compatibility
+
+Fated works best in terminals that support ANSI escape codes:
+- Modern versions of Windows Terminal, PowerShell, and cmd.exe
+- macOS Terminal, iTerm2
+- Linux terminals (GNOME Terminal, Konsole, xterm, etc.)
+- VS Code integrated terminal
+- Jupyter notebooks (results may vary)
 
 ## Usage
 
