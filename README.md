@@ -19,16 +19,6 @@ Install directly from PyPI using pip:
 pip install fated
 ```
 
-Alternative installation methods:
-
-1. Clone the repository and include the `fate` folder in your project:
-
-```bash
-git clone https://github.com/fredised/fated.git
-```
-
-2. Or simply copy the `fate` directory to your project.
-
 ## Usage
 
 ### Traditional Syntax
